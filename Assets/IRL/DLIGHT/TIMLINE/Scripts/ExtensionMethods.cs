@@ -27,7 +27,7 @@ public static class ExtensionMethods
     {
         bool is_prefab_asset = false;
 #if UNITY_EDITOR
-        var stage = UnityEditor.Experimental.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage();
+        var stage = UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage();
         is_prefab_asset = (stage != null
                            && stage.scene == obj.scene)
                           || (UnityEditor.PrefabUtility.IsPartOfAnyPrefab(obj)
