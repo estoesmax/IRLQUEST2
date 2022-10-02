@@ -9,7 +9,7 @@ public class DignidadLightMesh : MonoBehaviour
     public float maxRadius;
     [Range(0,1)]
     public float intensity = 1f;
-    public float maxLightIntensity = 5f;
+    public float maxLightIntensity = 2f;
     
     Renderer _myRenderer;
     Renderer myRenderer
