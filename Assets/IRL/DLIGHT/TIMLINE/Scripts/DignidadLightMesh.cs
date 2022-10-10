@@ -44,7 +44,7 @@ public class DignidadLightMesh : MonoBehaviour
 
         
         float radius = maxRadius * Mathf.Pow(intensity, .2f);
-        transform.localScale = new Vector3(radius, 9f, radius);
+        transform.localScale = new Vector3(radius, 120f, radius);
         myRenderer.GetPropertyBlock(mpb);
         mpb.SetFloat(LightIntensity, Mathf.Pow(intensity, .2f)*maxLightIntensity);
         myRenderer.SetPropertyBlock(mpb);
