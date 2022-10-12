@@ -216,23 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
---- !u!114 &-8038382782802215360
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 80608e9195086e747949ff648dfbc89e, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 0.474
 --- !u!114 &-7962915819091834504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1977,7 +1960,7 @@ MonoBehaviour:
     m_Start: 96.43333333333334
     m_ClipIn: 0
     m_Asset: {fileID: -9032491340781697488}
-    m_Duration: 2.7833333333333314
+    m_Duration: 0.5333333333333314
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1981274487115929846}
     m_EaseInDuration: 0
@@ -2362,8 +2345,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -8038382782802215360}
-    m_Duration: 240
+    m_Asset: {fileID: 132441702862456248}
+    m_Duration: 68
     m_TimeScale: 1
     m_ParentTrack: {fileID: -332294641199092850}
     m_EaseInDuration: 0
@@ -2427,7 +2410,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 7-final-tema
+    m_DisplayName: 4
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -2953,6 +2936,23 @@ MonoBehaviour:
     volume: 1
     stereoPan: 0
     spatialBlend: 0
+--- !u!114 &132441702862456248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: aa91d894f4d83004cbd1ebe1e7007661, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &307738553710331307
 MonoBehaviour:
   m_ObjectHideFlags: 1
